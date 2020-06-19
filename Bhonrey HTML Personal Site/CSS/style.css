@@ -1,0 +1,484 @@
+body {
+background-color:#eaf6f6;
+
+}
+.container1{
+
+	       width: 200px;
+	       height: 300vh;
+	       background-color: black;
+	      position: absolute;
+	      right: 0px;
+
+}
+
+.container{
+	float: right;
+	display: inline-block;
+
+}
+.bar1, .bar2, .bar3{
+	width: 35px;
+	height: 5px;
+	background-color: white;
+	margin: 6px 0;
+	transition: 0.4s;
+
+}
+#conbutton{ background-color: yellow;
+	margin-top: 20px;
+	border-radius: 50%;
+padding: 10px 24px;
+text-align: center;
+}
+#conbutton:hover{
+  background-color: #4CAF50;
+  color: white;
+}
+
+
+
+.searchbox{
+	float: left;
+}
+
+h3{
+color:#66BFBF
+}
+h1{
+  font-family: cooper black;
+color:#66BFBF
+
+}
+
+
+img{
+  margin-top: 50px;
+width: 1000px;
+height: 200px;
+}
+
+.btn-group button {
+
+  background-color: #4CAF50; /* Green background */
+  border: 1px solid green; /* Green border */
+  color: white; /* White text */
+  padding: 25px 92px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: center; /* Float the buttons side by side */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+
+  background-color: gray;
+  /* background-color: #3e8e41; */
+}
+a{text-decoration: none;
+color:black;
+font-family: cooper black;
+}
+a:hover{
+
+  color:white;
+}
+#search{
+  float:left;
+  border:3px solid green;
+}
+
+
+#div1{
+  width: 1030px;
+  height:500px;
+  border:1px solid blue;
+  box-shadow: 5px 10px #888888;
+  padding: 5px;
+background-color: rgb(214,242,192);
+}
+#div2{
+  width: 300px;
+  height:250px;
+  border:1px solid blue;
+background-color: rgb(115,140,134);
+}
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  height: 50%;
+  padding: 5px;
+
+
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+#img1{
+  border-radius: 50%;
+  height: 200px;
+
+}
+#a1{
+  text-align: center;
+}
+#b1{
+padding: 10px 24px;
+align-items: center;
+}
+#b1:hover{
+  background-color: #4CAF50;
+  color: white;
+}
+#div3{
+background-color: #e6e619;
+  text-align: center;
+}
+#signupnow{
+	text-align: center;
+	border:3px;
+	border-color: green;
+}
+#h22{
+  font-family: cooper black;
+}
+#bflight{
+
+    background-color: white;
+    border: 5px solid green; /* Green border */
+    color: black; /* White text */
+    padding: 25px 80px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    border-radius: 50px;
+
+}
+#bflight:hover{
+  font-style: cooper black;
+  background-color:  #4CAF50;
+  color: white;
+}
+#image{
+  background-color: yellow;
+  /* border: 2px solid gray; */
+  height: 300px;
+
+}
+
+
+#check1{
+width: 1000px;
+height: 80px;
+background-color: white;
+border-radius: 10px;
+
+}
+#divbordergetgo{
+  border-radius: 10%;
+float: left;
+background-color: white;
+width: 500px;
+height: 200px;
+
+
+}
+#divborderbookingdetails{
+  border-radius: 10%;
+  float: right;
+  background-color: white;
+  width: 500px;
+  height: 200px;
+}
+#buttoncheck{
+  border-style: none;
+  border-radius: 10%;
+  width: 250px;
+  height: 60px;
+background-color: rgb(3, 165, 252);
+}
+.check1{
+}
+#buttoncheck:hover{
+  background-color: blue;
+}
+.manage1{
+	display:none;
+
+}
+.check1{
+	display: none;
+}
+.aboutus1{
+    display: none;
+	font-size: 48px;
+}
+.route1{
+  display: none;
+}
+
+body{
+	float: center;
+}
+
+/* .container1{
+	display:none;
+}
+.container2{
+	display:;
+	cursor: pointer;
+	float: right;
+	z-index: 2;
+} */
+/* .bar4, .bar5, .bar6{
+	width: 35px;
+	height: 5px;
+	background-color: red;
+	margin: 6px 0;
+	transition: 0.4s;
+} */
+
+/* css practise */
+
+.route1{
+
+  margin-left: 10px;
+  width: 370px;
+  height: 470px;
+  background-color: gray;
+}
+.route1 input{
+  width: 200px;
+  height: 40px;
+}
+#routebot{
+  background-color: rgb(80,80,150);
+  border-radius: 100%;
+  margin-left: 100px;
+padding: 10px 24px;
+align-items: center;
+}
+#routebot:hover{
+  background-color: #4CAF50;
+  color: white;
+}
+.plan1{
+  display: none;
+
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 700px){
+
+
+
+
+#image{
+	float: center;
+    background-image: url(cebu.jpg);
+	background-size:cover;
+
+	 }
+	 #image{
+  background-color: yellow;
+  /* border: 2px solid gray; */
+  height: 190px;
+  width: 610px;
+
+}
+#cebu{
+	width: 220px;
+	height: 100px;
+}
+
+
+.btn-group button {
+
+  background-color: #4CAF50; /* Green background */
+  border: 1px solid green; /* Green border */
+  color: white; /* White text */
+  padding: 7px 25px; /* Some padding */
+  cursor: pointer; /* Pointer/hand icon */
+  float: center; /* Float the buttons side by side */
+}
+
+/* Clear floats (clearfix hack) */
+.btn-group:after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.btn-group button:not(:last-child) {
+  border-right: none; /* Prevent double borders */
+}
+
+/* Add a background color on hover */
+.btn-group button:hover {
+
+  background-color: gray;
+  /* background-color: #3e8e41; */
+}
+/*.manage{
+	 display: block;
+	float: center;
+}
+.check{color: red;
+	 display: block;
+	float: center;
+}*/
+#div1{
+  width: 400px;
+  height:500px;
+  border:1px solid blue;
+  box-shadow: 5px 10px #888888;
+  padding: 5px;
+background-color: rgb(214,242,192);
+}
+   .check1{
+   	font-size: 10px;
+   }
+   #divbordergetgo{
+   	width: 180px;
+   	height: 300px;
+   }
+   #divborderbookingdetails{
+   	width: 180px;
+   	height: 300px;
+   }
+   #buttoncheck{
+   	width: 40px;
+   	height: 20px;
+   	background-color: rgb(3, 165, 252);
+   }
+   #buttoncheck:hover{
+   	text-decoration: none;
+   	background-color: yellow;
+   }
+.aboutus1{
+	font-size: 29px;
+}
+.row{
+	float: center}
+
+#div3{
+	float: center;
+}
+#b1{ background-color: yellow;
+	margin-top: 10px;
+	border-radius: 50%;
+padding: 10px 24px;
+align-items: center;
+}
+#b1:hover{
+  background-color: #4CAF50;
+  color: white;
+}
+#divbordercheck{
+	display:;
+}
+
+/* .container1{
+	display:;
+	cursor: pointer;
+	float: right;
+	z-index: 2;
+}
+.bar1, .bar2, .bar3{
+	width: 35px;
+	height: 5px;
+	background-color: white;
+	margin: 6px 0;
+	transition: 0.4s;
+}
+.change .bar1{
+	-webkit-transform:rotate(-45deg) translate(-9px,6px);
+}
+.change .bar2 {
+	opacity: 0;
+}
+.change .bar3{
+	-webkit-transform:rotate(-137deg) translate(7px,5px);
+
+} */
+#z2{ background-color: yellow;
+	margin-top: 10px;
+    text-align: center;
+	border-radius: 50%;
+padding: 10px 24px;
+
+}
+#z2:hover{
+  background-color: #4CAF50;
+  color: white;
+}
+#z1,#z2{
+	display:none ;
+}
+
+	.bar4, .bar5, .bar6{
+	width: 35px;
+	height: 5px;
+	background-color: blue;
+	margin: 6px 0;
+	transition: 0.4s;
+}
+.container2{
+	display:;
+	cursor: pointer;
+	float: right;
+	z-index: 2;
+}
+.container1{
+	display: none
+}
+.route1{
+
+  margin-left: 10px;
+  width: 370px;
+  height: 470px;
+  background-color: gray;
+}
+.route1 input{
+  width: 200px;
+  height: 40px;
+}
+#routebot{
+  background-color: rgb(80,80,150);
+  border-radius: 100%;
+  margin-left: 100px;
+padding: 10px 24px;
+align-items: center;
+}
+#routebot:hover{
+  background-color: #4CAF50;
+  color: white;
+}
+.plan1{
+  font-size: 10px;
+}
+}

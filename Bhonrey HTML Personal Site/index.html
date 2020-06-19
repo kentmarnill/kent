@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial scale=1">
+  <title>Bhonrey's Personal Site</title>
+ <link rel="stylesheet" type="text/css" href="CSS/style.css">
+ <script type="text/javascript" src= "jquery.min.js"></script>
+ <script type="text/javascript" src= "Slideshow.js"></script>
+ <script type="text/javascript" src= "jquery.js"></script>
+
+
+</head>
+
+<body>
+
+
+<!-- <div class="container1">
+    <div class="container">
+      <div class="bar1"></div>
+     <div class="bar2"></div>
+      <div class="bar3"></div>
+      </div><br><br><br>
+     <input type="button" name="HOME" value="HOME" id="z1"><br> <br>
+     <input type="button" name="ABOUT" value="ABOUT" id="z1"><br><br>
+     <input type="button" name="FLIGHTS" value="FLIGHTS" id="z1"><br><br>
+     <input type="button"type="SIGN UP" value="SIGN UP" id="z1">
+</div> -->
+
+
+<!-- <div class="container2">
+     <div class="bar4"></div>
+     <div class="bar5"></div>
+     <div class="bar6"></div>
+</div> -->
+
+
+
+<div class="searchbox">
+<input id="search"type="text" placeholder="Search cebupacificair.com">
+<input id="search" type="submit" value="Search">
+</div>
+<br /><br /><br />
+  <table cellspacing="20">
+
+<div id="image">
+      <center><img src="images/cebu.jpg" id="cebu" ></center>
+
+ </div>
+ <center>
+  <h1>WELCOME TO CEBU PACIFIC AIRLINE!</h1>
+</center>
+
+
+<div class="btn-group">
+	<center>
+<button class="manage"> Manage Booking</button>
+<button class="check"> Check-in </button>
+<button class="flight">Flight Status</button>
+<button class="about">About Us</button>
+<button class="plan">Plan Trip</button>
+</center>
+</div>
+
+
+<br ><br >
+
+
+<center>
+  <div id="div1">
+
+<!-- manage -->
+<div class="manage1">
+<H2>
+    Where would you like to go?
+  </H2>
+  <div class="btn-groups">
+    <button>Flight</button>
+    <button>Flight and Hotel</button>
+    <button>Hotel</button>
+  </div>
+<br><br>
+<div id="div2">
+
+<input type="radio" placeholder="Round-Trip">Round-Trip
+<input type="radio" placeholder="Round-Trip">One-Way
+<input type="radio" placeholder="Round-Trip">Multi-City
+
+<br><br>
+
+
+<label>Flying From</label><br>
+<input type="text" placeholder="Manila(MNL)" /><br>
+<label>Flying To</label><br>
+<input type="text" placeholder="Select your destination" /><br>
+<label>Departing On</label><br >
+<input type="text" placeholder="01-22-2000" /><br>
+<label>Returning On</label><br>
+<input type="text" placeholder="01-22-2000" />
+
+</div><br><br><br>
+<input type="button" name="FIND FLIGHTS" value="FIND FLIGHTS" id="bflight">
+<br><br>
+
+</div>
+
+<!-- check-in -->
+<center>
+<div class="check1">
+  <div>
+    <center>
+<h3>Check In</h3>
+<p>
+Make it a habit to check in online all the time! Experience ease and comfort when you check in for your flights in the comfort of your own home or office.
+
+Get your boarding pass as early as seven (7) days before your flight or even up to four (4) hours for an international flight and up to one (1) hour for your flights within the Philippines.
+</p>
+</center>
+</div>
+
+<br><br>
+<div id="divbordergetgo">
+     <center>
+<h3>Use your GetGo account</h3>
+
+<p>Email</p>
+<input type="text" name="Enter Email" placeholder="Enter Email">
+<br>
+<p>Password</p>
+<input type="text" name="Enter Password" placeholder="Password">
+<br><br>
+<input type="button" name="LOG IN" placeholder="LOG IN" id="buttoncheck">
+   </center>
+</div>
+
+
+<div id="divborderbookingdetails">
+     <center>
+<h3>Use your Booking Details</h3>
+
+<p>Booking Reference Number</p>
+<input type="text" name="Enter booking reference number" placeholder="Enter booking reference number">
+<br>
+<p>Surname (of any guest)</p>
+<input type="text" name="Enter Surename" placeholder="Surename">
+<BR><BR>
+<input type="button" name="LOG IN" placeholder="LOG IN" id="buttoncheck">
+</center>
+</div>
+
+</div>
+</center>
+
+<div class="aboutus1">
+<a id="cebupacific">Cebu Pacific Air,</a><p>Inc., operating as cebu pacific(PSE: CEB),is a Philippine low cost airline based on the ground of Mactan-Cebu International Airpot(MCIA Terminal 2), Lapu-Lapu City, Metro Cebu, in the Philippines. Founded in 1988, it offers scheduled flights to both domestic and international destinations.</p>
+
+</div>
+
+<center>
+<!-- flight status -->
+<div class="route1">
+
+   <h2>By ROute</h2>
+  <label>Flying from:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <input type="text" placeholder="Select your origin"><br><br>
+  <label>Flying to:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <input type="text" placeholder="Select your origin"><br><br>
+  <label>Departure date:</label>
+  <input type="text" placeholder="Select your origin"><br><br>
+  <input id="routebot" type="button" value="Check Status">
+
+   <h2>By Flight Number</h2>
+  <label>Flight number:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <input type="text" placeholder="Select your origin"><br><br>
+  <label>Flying date:</label>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <input type="text" placeholder="Select your origin"><br><br>
+  <input id="routebot" type="button" value="Check Status">
+</div>
+</center>
+
+
+<!-- plan-trip -->
+<center>
+<div class=" plan1">
+  <h2>Ready</h2><p>Seat sale</p>
+  <h2>CHECK-IN</h2><P>Flights from 72 hours up to 4 hours for international and up to 2 hours for domestic</P>
+  <h2>MANAGE BOOKING</h2><p>• Retrieve Booking
+• Check-In
+• Print Boarding Pass
+• Change Flight
+• Cancel Flight
+• Upgrade Baggage
+• Reserve Seats</p>
+<h2>FLIGHT STATUS</h2><p>Find out whether your flight has departed, arrived or been rescheduled.</p>
+<h2>QUICK LINKS</h2><p>• Promos
+• Flight Schedules
+• Payment Centers
+• List of Airports
+• Partner Agents
+• Ceb Biz Partners
+• Site Map</p>
+</div>
+</center>
+
+
+</div>
+</center>
+
+<br><br>
+
+
+
+
+
+
+
+
+
+<div class="row">
+  <div class="column">
+    <img src="images/fly.jpg" alt="Snow" style="width:100%" id="img1">
+    <h2 id="a1">Travel Services</h2>
+    <p id="a1">Download and check in through the Cebu</p>
+    <p id="a1">Pacific mobile app, or find out how to</p>
+    <p id="a1">earn airline points in our loyalty rewards</p>
+    <p id="a1">program.</p>
+
+    <br><br><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   <input type="button"type="LEARN MORE" value="LEARN MORE" id="b1">
+  </div>
+  <div class="column">
+    <img src="images/fly2.jpg" alt="Forest" style="width:100%" id="img1">
+    <h2 id="a1">Our Network</h2>
+    <p id="a1">Philippines, Southeast Asia, Japan,Korea,</p>
+    <p id="a1">China, Australia and the Middle East, among</p>
+    <p id="a1">others! Check Cebu Pacific's flight schedules</p>
+    <p id="a1">and routes, so you can book promo faires.</p>
+    <br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   <input type="button"type="LEARN MORE" value="LEARN MORE" id="b1">
+  </div>
+  <div class="column">
+    <img src="images/fly3.jpg" alt="Mountains" style="width:100%" id="img1">
+    <h2 id="a1">Promos</h2>
+    <p id="a1">Find the best deals, seat sales, lowest</p>
+    <p id="a1">airface, discounted flights to the best</p>
+    <p id="a1">Philippine island network as well as to</p>
+    <p id="a1">rest of Asia, Australia and the Middle East.</p>
+    <br><br><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+   <input type="button"type="LEARN MORE" value="LEARN MORE" id="b1">
+  </div>
+</div>
+<br><br><br>
+<div id="div3">
+      <h2 id="h22">SUBCRIBE TO OUR NEWSLETTER</h2>
+      <h3>Be the first to know about Cebu Pacific's airface deals,travel promotion and news.</h3>
+</div>
+<div id="signupnow">
+<input type="button"type="SIGN UP NOW" value="SIGN UP NOW" id="b1">
+</div>
+<br><br>
+
+
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" src="jquery.min.js"> </script>
+<script type="text/javascript">
+
+
+  $(document).ready(function(){
+    $('manage').click(function(){
+      <!-- alert("am k"); -->
+      var selected = $(this);
+      $('manage').removeClass('active');
+      $(selected).addClass('active');
+    });
+
+
+    // $('check').click(function(){
+    //   <!-- alert("am k"); -->
+    //   var selected = $(this);
+    //   $('check').removeClass('active');
+    //   $(selected).addClass('active');
+    // });
+
+    var
+        $manage = $('.manage'),
+        $check = $('.check'),
+        $flight = $('.flight'),
+        $about = $('.about'),
+        $plan = $('.plan'),
+
+        $manage1=$('manage1'),
+        $check1=$('.check1'),
+        $route1=$('.route1'),
+        $aboutus1=$('.aboutus1'),
+        $plan1=$('.plan1'),
+
+
+        // $container1=$('container1'),
+        // $container2=$('container2'),
+
+
+
+        $Manage_Booking = $('.manage'),
+        $Check_In = $('.check'),
+        $Flight_Status = $('.flight'),
+        $About_US = $('.about'),
+        $Plan_Trip = $('.plan'),
+        $manage1 = $('.manage1'),
+        $check1=$('.check1'),
+        $aboutus1=$('.aboutus1'),
+        $route1=$('.route1'),
+          $plan1=$('.plan1')
+
+        //  $container1=$('container1'),
+        // $container2=$('container2')
+
+
+        // $container2.click(function(){
+        //   $container2.fadeOut();
+        //   $container1.fadein();
+        //  });
+
+        // $container1.click(function(){
+        //   $container1.fadeOut();
+        //   $container2.fadein();
+        //  });
+
+        $manage.click(function(){
+          $check1.hide();
+          $aboutus1.hide();
+          $manage1.fadeIn();
+          $plan1.hide();
+          $route1.hide();
+          $check.fadein();
+          $flight.fadeIn();
+          $about.fadeIn();
+          $plan.fadeIn();
+        });
+
+       $check.click(function(){
+       	  $check1.fadeIn();
+       	  $manage.fadeIn();
+          $manage1.hide();
+          $plan1.hide();
+          $aboutus1.hide();
+          $route1.hide();
+
+        });
+
+        $flight.click(function(){
+          $check1.hide();
+          $manage1.hide();
+          $aboutus1.hide();
+          $plan1.hide();
+         $route1.fadeIn();
+        });
+
+        $about.click(function(){
+          $check1.hide();
+          $manage1.hide();
+          $route1.hide();
+          $plan1.hide();
+          $aboutus1.fadeIn();
+          $check.fadein();
+          $flight.fadeIn();
+          $about.fadeIn();
+          $plan.fadeIn();
+        });
+
+
+
+        $plan.click(function(){
+          $check1.hide();
+          $manage1.hide();
+          $aboutus1.hide();
+         $route1.hide();
+            $plan1.fadeIn();
+        });
+
+  });
+</script>
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
